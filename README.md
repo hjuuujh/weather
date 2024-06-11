@@ -3,9 +3,11 @@
 - Spring Boot
 - Maria db
 
-2. db
-- create database weather;
--  create table memo(
-     id INT not null primary key auto_increment,
-     text VARCHAR(50) not null);
+2. ORM(JPA) vs SQL Mapper(jdbc)
+- SQL Mapper
+- 단순히 DB와 Java를 연결
+- SQL을 명시 해주어야함
+- ORM
+- DB 테이블과 Java 객체를 매핑
+- SQL 자동 생성
 
