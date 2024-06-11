@@ -1,0 +1,9 @@
+### Post
+POST http://localhost:8080/create/diary?date=2022-05-20
+Content-Type: application/json
+
+{
+  "text": "weather"
+}
+
+###
