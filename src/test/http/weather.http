@@ -2,8 +2,27 @@
 POST http://localhost:8080/create/diary?date=2022-05-20
 Content-Type: application/json
 
+"weather"
+
+### Post
+POST http://localhost:8080/create/diary?date=2022-05-23
+Content-Type: application/json
+
 {
   "text": "weather"
 }
 
 ###
+ GET http://localhost:8080/read/diary?date=2022-05-20
+
+###
+ GET http://localhost:8080/read/diaries?startDate=2022-05-20&endDate=2022-05-25
+
+###
+PUT http://localhost:8080/update/diary?date=2022-05-20
+Content-Type: application/json
+
+"weather weather"
+
+###
+DELETE http://localhost:8080/delete/diary?date=2022-05-20
