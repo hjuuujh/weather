@@ -13,7 +13,7 @@ Content-Type: application/json
 }
 
 ###
- GET http://localhost:8080/read/diary?date=2022-05-20
+ GET http://localhost:8080/read/diary?date=fwefw
 
 ###
  GET http://localhost:8080/read/diaries?startDate=2022-05-20&endDate=2022-05-25
